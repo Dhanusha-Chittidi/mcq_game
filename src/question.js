@@ -14,11 +14,13 @@ export const Question = ({ question, options,selectedOption, onAnswer }) => {
     <div className="question">
       <h2>{question}</h2>
       {options.map((option, index) => (
+        <div className="options">
         <button key={index} onClick={() => {
             handleAnswer(option)
             }} className={selected===option ? "selected" : ""}>
           {option}
         </button>
+        </div>
       ))}
     </div>
   );

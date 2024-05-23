@@ -4,80 +4,80 @@ import { Quiz } from './quiz';
 function App() {
   const questions = [
     {
-      question: 'D.D.T. was invented by?',
+      question: '1.D.D.T. was invented by?',
       options: ['Mosley', 'Rudolf', 'Karl Benz', 'Dalton'],
       correct: 'Mosley',
     },
     {
-      question: 'Hitler party which came into power in 1933 is known as',
+      question: '2.Hitler party which came into power in 1933 is known as',
       options: ['Ku-Klux-Klan', 'Democratic Party', 'Labour Party', 'Nazi Party'],
       correct: 'Nazi Party',
     },
     {
-      question: 'Which planet is known as the Red Planet?',
+      question: '3.Which planet is known as the Red Planet?',
       options: ['Earth', 'Mars', 'Jupiter', 'Venus'],
       correct: 'Mars',
     },
     {
-      question: 'What is the capital of France?',
+      question: '4.What is the capital of France?',
       options: ['Berlin', 'Madrid', 'Rome', 'Paris'],
       correct: 'Paris',
     },
     
     {
-      question: 'What is the hardest natural substance on Earth?',
+      question: '5.What is the hardest natural substance on Earth?',
       options: ['Gold', 'Iron', 'Diamond', 'Platinum'],
       correct: 'Diamond',
     },
     
     {
-      question: 'Which country is the largest by area?',
+      question: '6.Which country is the largest by area?',
       options: ['Canada', 'China', 'United States', 'Russia'],
       correct: 'Russia',
     },
     {
-      question: 'What is the smallest prime number?',
+      question: '7.What is the smallest prime number?',
       options: ['0', '1', '2', '3'],
       correct: '2',
     },
   
     {
-      question: 'Which ocean is the largest?',
+      question: '8.Which ocean is the largest?',
       options: ['Atlantic Ocean', 'Indian Ocean', 'Arctic Ocean', 'Pacific Ocean'],
       correct: 'Pacific Ocean',
     },
     {
-      question: 'Which country is known as the Land of the Rising Sun?',
+      question: '9.Which country is known as the Land of the Rising Sun?',
       options: ['China', 'South Korea', 'Japan', 'Thailand'],
       correct: 'Japan',
     },
     {
-      question: 'What is the chemical symbol for gold?',
+      question: '10.What is the chemical symbol for gold?',
       options: ['Au', 'Ag', 'Gd', 'Go'],
       correct: 'Au',
     },
     {
-      question: 'Which famous scientist developed the theory of relativity?',
+      question: '11.Which famous scientist developed the theory of relativity?',
       options: ['Isaac Newton', 'Albert Einstein', 'Galileo Galilei', 'Nikola Tesla'],
       correct: 'Albert Einstein',
     },
     {
-      question: 'What is the capital city of Australia?',
+      question: '12.What is the capital city of Australia?',
       options: ['Sydney', 'Melbourne', 'Brisbane', 'Canberra'],
       correct: 'Canberra',
     },
     {
-      question: 'What is the largest mammal in the world?',
+      question: '13.What is the largest mammal in the world?',
       options: ['Elephant', 'Blue Whale', 'Giraffe', 'Rhino'],
       correct: 'Blue Whale',
     },
     {
-      question: 'Which language is the most widely spoken in the world?',
+      question: '14.Which language is the most widely spoken in the world?',
       options: ['Spanish', 'English', 'Mandarin', 'Hindi'],
       correct: 'Mandarin',
     },
     {
-      question: 'Which planet is known as the Morning Star or the Evening Star?',
+      question: '15.Which planet is known as the Morning Star or the Evening Star?',
       options: ['Mars', 'Jupiter', 'Saturn', 'Venus'],
       correct: 'Venus',
     }
